@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8">
-
         <title>
             DFW Tribute
         </title>
@@ -15,6 +14,19 @@
                 }
                 #img-caption {
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+                }
+                #img-div{
+                    text-align: center;
+                }
+                #image{
+                    /*
+                    max-width: 100%;
+                    height: auto;
+                    Apparently this is not an acceptable way of resizing for the test because it wants to see the block display...
+                     */  
+                    display: block;
+                    max-width: 100%;
+                    margin: auto;
                 }
                     </style>
 <h1 id="title">David Foster Wallace</h1>
@@ -38,7 +50,7 @@
 <div id="main-text-area">
 
 <p id="tribute-info">
-    David Foster Wallace was a free thinker who 
+    David Foster Wallace was a free thinker who ...lived.
 </p>
 <a id="tribute-link"
  href="https://en.wikipedia.org/wiki/David_Foster_Wallace" target="_blank"> 
